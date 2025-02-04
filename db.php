@@ -2,7 +2,7 @@
 $host = 'localhost';
 $dbname = 'db_test';
 $username = 'root';
-$password = 'pyaory';
+$password = '######';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
