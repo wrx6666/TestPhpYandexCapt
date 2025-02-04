@@ -2,7 +2,7 @@
 session_start();
 require 'db.php';
 
-define('SMARTCAPTCHA_SERVER_KEY','ysc2_VW9uP7wSGzMPN7AsNKV8yfh095laK1c7CAwRz25O5e42ecc1'); 
+define('SMARTCAPTCHA_SERVER_KEY','########'); 
 
 function check_captcha($token) {
     $ch = curl_init();
@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     style="height: 100px"
     id="captcha-container"
     class="smart-captcha"
-    data-sitekey="ysc1_VW9uP7wSGzMPN7AsNKV8pu1yX05ZXmyatGKq9UgP53149aae"
+    data-sitekey="##########"
     data-callback="captchaCallback"
     data-hl="ru"  
         ></div>
